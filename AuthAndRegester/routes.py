@@ -96,6 +96,7 @@ async def verify_otp(
         "access_token": access_token,
         "refresh_token": refresh_token,
         "token_type": "bearer",
+        "Exists" : exists_ok
     }
 
 
