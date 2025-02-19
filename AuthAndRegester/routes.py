@@ -86,7 +86,7 @@ async def verify_otp(
         if(exists):
             exists_ok = True
     else:
-        exists = await db.user_exists("Phone_number" , Phone , config.DB , 'DRIVER_main')
+        exists = await db.user_exist("Phone_number" , Phone , config.DB , 'DRIVER_main')
         if(exists):
             exists_ok = True
 
